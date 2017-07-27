@@ -15,7 +15,12 @@ export namespace App {
 @connect(mapStateToProps, mapDispatchToProps)
 export class App extends React.Component<App.Props, App.State> {
 
-	render() {
+	public componentWillMount()
+	{
+		
+	}
+
+	public render() {
 		return (
 			<div>
 				{this.props.children}
